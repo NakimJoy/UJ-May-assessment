@@ -17,14 +17,12 @@
         "photoImg": "./UL.png",
         "description": "Bachelor of Commerce in Economics (Honours), 2023"
     },
+    "experience": {
+        "title": "Experience",
+        "name" : "THE BLACK ECONOMISTS NETWORK",
+        "responsibility": "Responsible for managing the organization’s relationships with key partners & laborators of the network",
+        "respon" : "Developing strategies and activities that align to what the members want to get out of the network"
     
-    "workExperiance": [
-        {
-            "companyName": "Python",
-            "position": "Writing some python code and creating functions",
-            "responsibility": "Writing some python code and creating functions",
-        
-        },
+    }
     
-    ]
 }
