@@ -1,0 +1,83 @@
+body {
+    background-image: url(.https://th.bing.com/th/id/OIP.Hlg2Sa5i4RvYI1La_cWlugHaE8?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+/* Header styles */
+.user {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Content styles */
+.content {
+    margin-top: 20px;
+}
+
+/* References table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+/* Heading divider styles */
+h2 {
+    position: relative;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px; /* Adjust as needed */
+    left: 0;
+    width: 100%;
+    height: 1px; /* Thickness of the line */
+    background-color: #ccc; /* Color of the line */
+}

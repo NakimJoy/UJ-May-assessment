@@ -1,38 +1,30 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": "Maphali Xinwelo ",
+        "body": "Personal Information",
+        "photo": "./profile.jpeg",
+        "phoneImg": "./phone.jpg",
+        "emailImg": "./email.jpg",
+        "addressImg": "./home.jpg"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "intro": {
+        "summary": "Summary",
+        "description": "I am a postgraduate student from the University of Limpopo currently completing a 4IR technologies boot camp with the University of Johannesburg. While studying, I have attained a variety of team-oriented abilities and I believe that enthusiasm, integrity, accountability and proper work etiquette are some of my best qualities.  Technically, I believe I have the skill set to fit into a quantitative role in any financial institution. I pride myself on being a quick learner able to perform, and successfully complete individual and contribute to team work."
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "education": {
+        "title": "Formal Education",
+        "institutionName": "University of Limpopo",
+        "photoImg": "./UL.png",
+        "description": "Bachelor of Commerce in Economics (Honours), 2023"
     },
-    "favouriteSubjects" : [
+    
+    "workExperiance": [
         {
-            "name" : "",
-            "description" : ""
+            "companyName": "Python",
+            "position": "Writing some python code and creating functions",
+            "responsibility": "Writing some python code and creating functions",
+        
         },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
+    
     ]
 }
